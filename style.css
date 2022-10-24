@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('image1.png');
+}
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.formData { 
+    transition: 1s;
+}
+
+input {
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+h5 {
+    margin: 0;
+    color: red;
+}
+
+.cityError {
+    display: none;
+}
+
+select {
+    width: 175px;
+}
+
+button {
+    margin: 15px 0px 25px 0;
+    width: 181px;
+    height: 30px;
+    background: #4ED27B;
+    border-radius: 3px;
+}
+ 
+.doneDiv {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.672);
+}
+
+.doneMessage {
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.doneMessage > h2{
+    margin: 0;
+}
+.doneMessage > p {
+    margin: 0px 0px 10px 0px;
+}
+.doneMessage > button {
+    width: 40px;
+}
